@@ -29,7 +29,7 @@ function one(){
 
 // one()
 
-if (true) {
+ if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
         const website = " youtube"
@@ -38,10 +38,10 @@ if (true) {
     // console.log(website);
 }
 
-// console.log(username);
+// // console.log(username);
 
 
-// ++++++++++++++++++ interesting ++++++++++++++++++
+//  ++++++++++++++++++ interesting ++++++++++++++++++
 
 
 console.log(addone(5))
@@ -51,8 +51,8 @@ function addone(num){
 }
 
 
-
 addTwo(5)
+
 const addTwo = function(num){
     return num + 2
 }
