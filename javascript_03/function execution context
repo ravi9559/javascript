@@ -1,0 +1,26 @@
+function execution context
+ 
+
+ There are two types of execution contexts: global and function
+  other one is eval execution context ( optional)
+
+
+  let val1=10
+  let val2 5
+
+   function addNum(num1, num2){
+
+    let total - num1+ num2
+    return total
+   }
+
+   let resutl = addNum(val1, val2)
+
+   let result2 = addNum(10, 2)
+
+
+
+
+ reference
+
+ https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/#:~:text=There%20are%20two%20types%20of,representing%20the%20function's%20local%20scope.
